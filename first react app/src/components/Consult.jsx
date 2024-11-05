@@ -1,6 +1,9 @@
 import React from 'react'
 import './Consult.css'
 import user from '../assets/user.png'
+import conicon from '../assets/conicon.png'
+import settings from '../assets/settings.png'
+import ConsultReusable from './ConsultReusable'
 function Consult() {
   return (
     <div>
@@ -17,15 +20,11 @@ function Consult() {
                         </div>
                         <div className='consult-right'>
                             <div className="consult-info">
-                                <div>
-                                <img src={user} alt="" />
-                                    </div>
-                                <div className="info">
-                                    <h3>Business Planning
-                                    </h3>
-                                    <p>Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo</p>
-                                </div>
-                                
+                               
+                    
+                                    <ConsultReusable image={user}  heading = "Business Planning" description = "Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo"/>
+                                    <ConsultReusable image={conicon} heading = "Financial Analysis" description = "Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo"/>
+                                    <ConsultReusable image = {settings} heading = "legal Advisory" description = "Tempor erat elitr rebum at clita. Diam dolor ipsum amet eos erat ipsum lorem et sit sed stet lorem sit clita duo"/>
                             </div>
                         </div>
                     </div>

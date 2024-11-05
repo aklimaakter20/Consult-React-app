@@ -1,6 +1,6 @@
 .consult-section{
     display: flex;
-    
+    height: 100vh;
     
     }
 .consult-left{
@@ -37,7 +37,6 @@
 }
 
 .consult-info{
-    display: flex;
     align-items: center;
     gap: 20px;
 }
@@ -49,11 +48,19 @@
     padding: 10px;
     border-radius: 50%;
 }
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
 .info h3{
     color: #152440;
     font-size: 28px;
+    margin-bottom: 0px;
 }
 .info p{
     color: white;
-    margin-top: 20 px;
+    
 }

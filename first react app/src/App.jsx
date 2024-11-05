@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Btn from './components/btn'
 import Consult from './components/Consult'
+import ConsultReusable from './components/ConsultReusable'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,9 +15,8 @@ function App() {
     <>
    <Navbar/>
    <Hero/>
-   <Consult/>
-   
-      
+   <Consult /> 
+    
     </>
   )
 }
