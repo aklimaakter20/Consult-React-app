@@ -1,11 +1,13 @@
 .consult-section{
     display: flex;
-    height: 100vh;
+    height: 90vh;
+    margin-top: -5px;
     
     }
 .consult-left{
     width: 50%;
-    padding: 80px 65px;
+    padding: 35px 65px;
+
 
 }
 .consult-left h2{
@@ -34,6 +36,7 @@
     background-color: #F3525A;
     width: 50%;
     padding: 80px 65px;
+
 }
 
 .consult-info{
