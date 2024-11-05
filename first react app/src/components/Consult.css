@@ -1,0 +1,59 @@
+.consult-section{
+    display: flex;
+    
+    
+    }
+.consult-left{
+    width: 50%;
+    padding: 80px 65px;
+
+}
+.consult-left h2{
+    color: #152440;
+    font-size: 45px;
+}
+.consult-left span{
+    color: #F3525A;
+}
+.consult-left h5{
+    color: #F3525A;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+.consult-left p{
+    line-height: 30px;
+    color: #6B6A75;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.consult-right{
+    background-color: #F3525A;
+    width: 50%;
+    padding: 80px 65px;
+}
+
+.consult-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.consult-info img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.info h3{
+    color: #152440;
+    font-size: 28px;
+}
+.info p{
+    color: white;
+    margin-top: 20 px;
+}
